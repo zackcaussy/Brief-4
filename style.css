@@ -1,0 +1,19 @@
+Body{
+    background: rgba(83, 89, 179, 0.8) url(unknown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin: 300px;
+}
+input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    margin: auto;
+    background-color: rgb(15, 15, 94, 0.8);
+    background-blend-mode: darken;
+}
