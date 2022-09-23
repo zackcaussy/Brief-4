@@ -9,95 +9,90 @@
 </head>
 <body>
     <h1>freeCodeCamp Survey Form</h1>
-    <p><i>Thank you for taking the time to help us improve the platform</i></p>
-            
-  <form>
+    <h2><i>Thank you for taking the time to help us improve the platform</i></h2>
+ 
+    
+<section>
+<form>
     <p>Name</p>
-                <input type="text" id="name" name="name" 
-                    placeholder="Enter your Name">
-                </input>
+                <input class="box" type="text" id="name" name="name" placeholder="Enter your Name">
+            
 
 
     <p>Email</p>
-                <input type="email" id="email" name="email"
-                    placeholder= "Enter your Email">
-                </input>
+                <input class="box" type="email" id="email" name="email" placeholder="Enter your Email">
+                
 
 
-            <p>Age(optional)</p>
-                <input type="date" id="age" name="age"
-                        placeholder= "Age">
-                </input>
+    <p>Age(optional)</p>
+                <input class="box" type="text" id="age" name="age" placeholder="Age">
+                
 
 
-            <p>Which option best describes your current role?</p>
+    <p>Which option best describes your current role?</p>
 
-                <input type="text" id="role" name="role" 
-                        placeholder="Select current role">
-                </input>
+                <input class="box" type="text" id="role" name="role" placeholder="Select current role">
+                
     
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-                    <input type="radio" id="contactChoice1"
-                    name="contact" value="Definitely">
-                    <label for="contactChoice1">Definitely</label></br>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+                    <input type="radio" id="contactChoice1" name="contact" value="Definitely">
+                    <label for="contactChoice1">Definitely</label><br>
 
-                    <input type="radio" id="contactChoice2"
-                    name="contact" value="Maybe">
-                    <label for="contactChoice2">Maybe</label></br>
+                    <input type="radio" id="contactChoice2" name="contact" value="Maybe">
+                    <label for="contactChoice2">Maybe</label><br>
 
-                    <input type="radio" id="contactChoice3"
-                    name="contact" value="Not sure">
-                    <label for="contactChoice3">Not sure</label></br>
+                    <input type="radio" id="contactChoice3" name="contact" value="Not sure">
+                    <label for="contactChoice3">Not sure</label><br>
 
-            <p>What is your favorite feature of freeCodeCamp?</p>
-                    <input type="text" id="freecodecamp" name="freecodecamp" 
-                    placeholder="Select an option">
-                    </input>
+    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <input class="box" type="text" id="freecodecamp" name="freecodecamp" placeholder="Select an option">
+                    
 
-            <p>What would you like to see improved? (Check all that apply)</p>
+    <p>What would you like to see improved? (Check all that apply)</p>
             
                 <input type="checkbox" id="frontend" name="frontend">
-                <label for="Front-End Projects">Front-End Projects</label></br>
+                <label for="frontend">Front-End Projects</label><br>
 
                 <input type="checkbox" id="backend" name="backend">
-                <label for="Back-end Projects">Back-end Projects</label></br>
+                <label for="backend">Back-end Projects</label><br>
 
                 <input type="checkbox" id="datavisualization" name="datavisualization">
-                <label for="Data Visualization">Data Visualization</label></br>
+                <label for="datavisualization">Data Visualization</label><br>
 
                 <input type="checkbox" id="challenges" name="challenges">
-                <label for="Challenges">Challenges</label></br>
+                <label for="challenges">Challenges</label><br>
 
                 <input type="checkbox" id="opensourcecommunity" name="opensourcecommunity">
-                <label for="Open Source Community">Open Source Community</label></br>
+                <label for="opensourcecommunity">Open Source Community</label><br>
 
                 <input type="checkbox" id="gitterhelprooms" name="gitterhelprooms">
-                <label for="Gitter help rooms">Gitter help rooms</label></br>
+                <label for="gitterhelprooms">Gitter help rooms</label><br>
 
                 <input type="checkbox" id="videos" name="videos">
-                <label for="Videos">Videos</label></br>
+                <label for="videos">Videos</label><br>
 
                 <input type="checkbox" id="citymeetups" name="citymeetups">
-                <label for="City Meetups">City Meetups</label></br>
+                <label for="citymeetups">City Meetups</label><br>
 
                 <input type="checkbox" id="wiki" name="wiki">
-                <label for="Wiki">Wiki</label></br>
+                <label for="wiki">Wiki</label><br>
 
                 <input type="checkbox" id="forum" name="forum">
-                <label for="Forum">Forum</label></br>
+                <label for="forum">Forum</label><br>
 
                 <input type="checkbox" id="additionalcourses" name="additionalcourses">
-                <label for="Additional Courses">Additional Courses</label></br>
-
-            <p>Any comments or suggestions?</p>
+                <label for="additionalcourses">Additional Courses</label><br>
+</form>
+    <p>Any comments or suggestions?</p>
 
             <form method="post" action="traitement.php">
                 <p>
                     <textarea name="ameliorer" id="ameliorer">Enter your comment here...</textarea>
                 </p>
-             
-            <button>submit</button>
-        </form>  
+             </form>
 
+            <button>Submit</button>
+  
+</section> 
 </body>
 </html>
